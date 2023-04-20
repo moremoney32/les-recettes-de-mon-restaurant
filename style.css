@@ -1,0 +1,458 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+#bloc_page {
+
+    padding: 100px;
+}
+
+h1 {
+
+    color: #D04F4F;
+    text-align: center;
+    
+}
+
+header input {
+
+    width: 100%;
+    height: 50px;
+    background-color: #E7E7E7;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+
+header {
+    position: relative;
+}
+
+header svg {
+
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: 15px;
+    transform: translate3d(0,13px,0);
+}
+/* Css area tags */
+*{
+  
+    box-sizing:border-box;
+  
+}
+
+#tags-area{
+  
+    height:50px;
+
+}
+
+#filters-tags-area{
+
+     display:flex;
+     margin-top:15px;
+     margin-bottom:15px;
+     gap:15px;
+
+}
+
+#filters-tags-area details{
+
+     width:170px;
+     height:69px;
+     border-radius:5px;
+     position: relative;
+     padding: 1rem;
+     cursor: pointer;
+     border: 0;
+     will-change:contents;
+
+}
+
+#details-ingredients, .ingredient-color{
+
+    background:#3282F7;
+
+}
+
+#details-appareils, .appareils-color{
+
+    background: #68D9A4;
+}
+
+#details-ustensiles, .ustensiles-color{
+
+    background: #ED6454;
+
+}
+
+#filters-tags-area{
+
+    display:flex;
+    margin-top:15px;
+    margin-bottom:15px;
+    gap:15px;
+
+}
+
+#filters-tags-area details{
+
+    width:170px;
+    height:69px;
+    border-radius:5px;
+    position: relative;
+    padding: 1rem;
+    cursor: pointer;
+    border: 0;
+
+}
+
+#details-ingredients, .ingredient-color{
+
+   background:#3282F7;
+
+}
+
+#details-appareils, .appareils-color{
+
+   background: #68D9A4;
+}
+
+#details-ustensiles, .ustensiles-color{
+
+   background: #ED6454;
+
+}
+
+#filters-tags-area details summary {
+   align-items: center;
+   display: flex;
+   height: 2.4rem;
+   justify-content: space-between;
+   line-height: 2.4rem;
+   width: 8.1rem;
+   font-weight: 500;
+   text-align: center;
+   color:#ffffff;
+ }
+ 
+ #filters-tags-area details summary svg {
+   line-height: 2.4rem;
+   transition: 400ms ease-in-out;
+   width: 1rem;
+   position: absolute;
+   right: 1rem;
+ }
+
+ #filters-tags-area details[open]{
+
+     width:560px;
+
+ }
+ 
+ #filters-tags-area details[open] > summary {
+   width: 35rem;
+ }
+ #filters-tags-area details[open] > summary svg {
+   z-index: 2;
+   transform: rotate(180deg);
+   transition: 400ms ease-in-out;
+ }
+
+ .filters-tags-area-input {
+   border-radius: 5px 5px 0 0;
+   left: 0;
+   width:560px;
+   z-index: 1;
+   position: absolute;
+   top: 0rem;
+   padding: 1rem;
+   outline:none;
+   color:#ffffff;
+   border:none;
+   font-size:1rem;
+ }
+ 
+ .filters-tags-area-input::placeholder {
+   color: white;
+   font-weight: 700;
+   opacity: 0.5;
+ }
+
+ #filters-tags-area div {
+   border-radius: 0 0 5px 5px;
+   display: grid;
+   grid-template-columns: repeat(3, minmax(150px, 1fr));
+   font-weight: 400;
+   left: 0;
+   max-height: 352px;
+   overflow-y: auto;
+   overflow-x: hidden;
+   padding: 15px;
+   position: absolute;
+   width: 560px;
+   top:45px;
+   z-index: 1;
+
+ }
+ 
+ #filters-tags-area span {
+   display:block;
+   margin-top:10px;
+   color:#ffffff;
+ }
+ 
+ #filters-tags-area ul li:hover {
+   /* overflow: unset; */
+   padding-right: 2.5rem;
+   /* text-overflow: unset;
+   white-space: unset; */
+ }
+
+ ::-webkit-scrollbar {
+   width: 6px !important;
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: white !important;
+ }
+ 
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: #c7bebe;
+ }
+main {
+
+    padding-top: 25px;
+}
+
+.ingredients {
+
+    width: 140px;
+    height: 50px;
+    background-color: #3282F7;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.ingredients svg {
+
+    height: 15px;
+    width: 15px;
+    transform: translate3d(15px,0,0);
+}
+
+.ingredients svg path {
+
+    fill: #FFFFFF;
+}
+
+.appareils svg {
+
+    height: 15px;
+    width: 15px;
+    transform: translate3d(15px,0,0);
+}
+
+
+.appareils svg path {
+
+    fill: #FFFFFF;
+}
+
+
+.Ustensiles svg {
+
+    height: 15px;
+    width: 15px;
+    transform: translate3d(15px,0,0);
+}
+
+.Ustensiles svg path {
+
+    fill: #FFFFFF;
+}
+
+.appareils {
+
+    width: 140px;
+    height: 50px;
+    background-color:#68D9A4;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.Ustensiles {
+
+    width: 140px;
+    height: 50px;
+    background-color:#ED6454;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#button {
+
+    display: flex;
+    gap: 15px;
+}
+
+#tag_button {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 110px;
+
+}
+
+
+#grid_card {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+    position:relative;
+    will-change:contents;
+    
+}
+
+
+.card {
+
+    height: 400px;
+    width:100%;
+    
+}
+
+.card_img {
+
+    height: 50%;
+    background-color: #C7BEBE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card_descrption {
+
+    background-color: #E7E7E7;
+    height: 50%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    padding: 20px;
+}
+
+.title_recette {
+
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+}
+
+.card_descrption :nth-child(2) {
+
+    font-weight: bold;
+}
+
+.time svg {
+
+    height: 15px;
+    width: 15px;
+}
+
+.ingredients_food {
+
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+}
+
+p {
+
+    font-size: 0.6rem ;
+    width: 38%;
+    transform: translate3d(0,-10px,0);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+     overflow: hidden;
+    
+    
+    
+
+}
+
+.recette {
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+/* message d'erreur */
+
+.error-message{
+
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate3d(-50%, -50%, 0);
+    color:#d50000 !important;
+    font-size:1.1rem;
+    padding-top:15px;
+    padding-bottom:30px;
+
+}
+
+#tags-area{
+    display:flex;
+    gap:15px;
+
+}
+
+.tag-chip{
+    height:50px;
+    border-radius:5px;
+    color:#ffffff;
+    display:flex;
+}
+
+.tag-chip .tag-text{
+    display:inline-block;
+    padding:15px;
+
+}
+
+.tag-chip .tag-icon{
+    padding:15px;
+
+}
+
+.tag-chip svg{
+
+    display:inline-block;
+    vertical-align:top;
+    width:18px;
+    height:18px;
+    cursor:pointer;
+    margin-top:50%;
+    transform:translate3d(0, -50%, 0);
+
+}
+
